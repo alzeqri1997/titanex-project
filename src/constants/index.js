@@ -100,3 +100,49 @@ export const steps = [
     image: step3,
   },
 ];
+
+export const testimonials1 = [
+  {
+    image: null,
+    name: 'Bill Kiaubaer',
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Allan Sanidad",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Markus",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Brooklyn Simmons",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+]
+
+export const testimonials2 = [
+  {
+    image: null,
+    name: 'Wade Warren',
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Douglas Coffman",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Salahdine Benyoussef",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+  {
+    image: null,
+    name: "Jane Cooper",
+    body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
+  },
+]
