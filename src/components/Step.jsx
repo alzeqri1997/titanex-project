@@ -3,7 +3,7 @@ import { step1 } from '../assets'
 
 const Step = ({title, body, image}) => {
   return (
-    <div className='mb-[60px]' >
+    <div  >
       <img src={image} className='mx-auto mb-[40px]' alt="step1" />
       <div>
         <span className='font-bold text-[24px] block text-center mb-[19px]' >{title}</span>
