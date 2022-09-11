@@ -172,7 +172,6 @@ body{
 
 .slideshow{
   max-width: 1280px ;
-  margin: 0 auto;
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
@@ -190,15 +189,28 @@ body{
 }
 
 .slideshow .mover-1{
-  animation: moveSlideshow 40s linear infinite ;
+  animation: moveSlideshow 90s linear infinite ;
 }
 
 .slideshow .mover-2{
-  animation: moveSlideshow 40s linear infinite  ;
+  animation: moveSlideshow 90s linear infinite  ;
+}
+.slideshow .mover-1-reverse{
+  animation: moveSlideshowReverses 90s linear infinite ;
+}
+
+.slideshow .mover-2-reverse{
+  animation: moveSlideshowReverses 90s linear infinite  ;
 }
 
 @keyframes moveSlideshow{
   100%{
     transform: translateX(-102.5%);
+  }
+}
+
+@keyframes moveSlideshowReverses{
+  100%{
+    transform: translateX(102.5%);
   }
 }
