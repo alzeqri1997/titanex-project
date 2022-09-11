@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className='w-[56px] h-[56px] bg-[#171821] flex justify-center items-center mx-auto mt-[37px] mb-[117px] rounded-full' >
+      <button className=' sm:flex hidden w-[56px] h-[56px] bg-[#171821] justify-center items-center mx-auto mt-[37px] mb-[117px] rounded-full' >
         <img src={arrow} alt="arrow" className='' />
       </button>
     </section>
