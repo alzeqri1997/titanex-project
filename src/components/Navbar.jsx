@@ -34,7 +34,7 @@ const Navbar = () => {
           {
             socialMedia.map((item, index) => (
               <div key={index} className={`w-[26px] h-[26px] ${index === 0  ? 'bg-primary' : 'bg-black'} rounded-full ${styles.flexCenter}`}>
-                <img src={item.icon} alt="twitter" />
+                <a href=""><img src={item.icon} alt="twitter" /></a>
               </div>
             ))
           }
@@ -70,7 +70,7 @@ const Navbar = () => {
           {
             socialMedia.map((item, index) => (
               <div key={index} className={`w-[26px] h-[26px] ${index === 0  ? 'bg-primary' : 'bg-black'} rounded-full ${styles.flexCenter}`}>
-                <img src={item.icon} alt="twitter" />
+                <a href=""><img src={item.icon} alt="twitter" /></a>
               </div>
             ))
           }
