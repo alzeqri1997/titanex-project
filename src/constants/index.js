@@ -146,3 +146,26 @@ export const testimonials2 = [
     body:"“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”"
   },
 ]
+
+export const faq = [
+  {
+    title: "What is the difference between Titanex and the other exchange ?",
+    content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
+  },
+  {
+    title: "Do I need dto do a KYC  to use Titanexf?",
+    content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
+  },
+  {
+    title: "I need proof of  funds after using Titanex, how can I get this document?",
+    content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
+  },
+  {
+    title: "What are the fees to use Titanex ",
+    content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
+  },
+  {
+    title: "What can we do for you?",
+    content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
+  },
+]
