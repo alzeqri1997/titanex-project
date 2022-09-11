@@ -169,3 +169,18 @@ export const faq = [
     content:"Titanex guarantees privacy and anonmity for left funds and that your funds will NEVER be blocked. forzen and we will never ask you for more peronal information. Our goal is also to not have our customers’ addresses blacklisted after using Titanex.Like it happedn to Tornado?"
   },
 ]
+
+export const footerLinks = [
+  {
+    id: "termsof-use",
+    title: "Termsof use",
+  },
+  {
+    id: "privacy-policy",
+    title: "Privacy Policy",
+  },
+  {
+    id: "kyc-aml",
+    title: "KYC/AML",
+  },
+];
