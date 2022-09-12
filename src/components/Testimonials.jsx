@@ -1,13 +1,11 @@
-/** @format */
 
-import { data } from "autoprefixer"
 import React from "react"
 
 const Testimonials = ({ data1, data2 }) => {
 	return (
 		<>
 			{/* First Testimonials */}
-			<div className="slideshow mb-[40px] ">
+			<div className="slideshow mb-[40px] mx-auto ">
 				{/* mover - 1  */}
 				<div
 					className="mover-1 flex gap-[40px] mx-auto items-center w-fit translate-x-[]  "
@@ -60,7 +58,7 @@ const Testimonials = ({ data1, data2 }) => {
 				</div>
 			</div>
 			{/* Second Testimonials  */}
-			<div className="slideshow flex-row-reverse ">
+			<div className="slideshow flex-row-reverse mx-auto ">
 				{/* mover - 1  */}
 				<div
 					className="mover-1-reverse flex gap-[40px] mx-auto items-center w-fit translate-x-[]  "
