@@ -16,7 +16,7 @@ export const navLinks = [
     title: "Benefits",
   },
   {
-    id: "How-to-works",
+    id: "how-to-works",
     title: "How to works",
   },
   {
@@ -52,15 +52,15 @@ export const socialMedia = [
 
 export const menuItems = [
   {
-    value: "20",
+    value: 20,
     title: "20",
   },
   {
-    value: "30",
+    value: 30,
     title: "30",
   },
   {
-    value: "40",
+    value: 40,
     title: "40",
   },
 ];
