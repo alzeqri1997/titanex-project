@@ -4,8 +4,11 @@ import {curveLine, repeatCircle, ethereum, bitcoin3d, nth3d, arrow} from '../ass
 import Dropdown from './Dropdown'
 import { menuItems } from '../constants'
 import Button from './Button'
+import { useState } from 'react'
 
 const Hero = () => {
+  const [btc, setBtc] = useState(20);
+  const [eth, setEth] = useState(20);
   return (  
     <section id='home' className={`z-10 relative xs:py-[60px] py-[50px]`}>
       <div className='relative w-max mx-auto mb-[60px]' >
@@ -19,12 +22,12 @@ const Hero = () => {
             <div className='flex md:flex-row flex-col justify-between gap-2' >
               <div className='flex md:self-end self-auto  flex-col basis-1/2' >
                 <span className='mb-3'> you send </span>
-                <Dropdown menuItems={menuItems}  />
+                <Dropdown onChangeState={setBtc} value={btc} menuItems={menuItems}  />
               </div>
                 <img src={repeatCircle} className='translate-y-[15px] w-[31px] h-[31px] md:self-center self-end cursor-pointer' alt="repeat circle" />
               <div className='flex md:self-end self-auto  flex-col basis-1/2' >
                 <span className='mb-3'> You receive </span>
-                <Dropdown menuItems={menuItems} icon={ethereum} text="ETH"  />
+                <Dropdown value={eth} menuItems={menuItems} icon={ethereum} text="ETH"  />
               </div>
               <Button styles={'md:self-end self-auto md:mt-0 mt-2'} />
             </div>
@@ -40,9 +43,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className=' sm:flex hidden w-[56px] h-[56px] bg-[#171821] justify-center items-center mx-auto mt-[37px] mb-[117px] rounded-full' >
+      <a href='#benefits' className=' sm:flex hidden w-[56px] h-[56px] bg-[#171821] justify-center items-center mx-auto mt-[37px] mb-[117px] rounded-full' >
         <img src={arrow} alt="arrow" className='' />
-      </button>
+      </a>
     </section>
   )
 }

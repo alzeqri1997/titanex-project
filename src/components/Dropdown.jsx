@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 // import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { arrow, bitcoin } from '../assets'
@@ -7,12 +7,15 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Dropdown({menuItems, icon=bitcoin, text="BTC"}) {
+export default function Dropdown({ menuItems, icon = bitcoin, text = "BTC", value, onChangeState }) {
+  const handleChange = (value) => {
+    onChangeState(value)
+  }
   return (
     <Menu as="div" className="relative inline-block w-max-[242px] text-left">
-      <div>
+        <div>
         <Menu.Button className="inline-flex justify-between items-center w-full custom-border px-6 h-[52px] font-medium text-white  focus:outline-none">
-          <span>20</span>
+          <span>{value}</span>
           <div className='flex items-center'>
           <div className='w-[1px] h-[24px] custom-border' ></div>
             <div className='flex items-center gap-1' >
@@ -40,8 +43,8 @@ export default function Dropdown({menuItems, icon=bitcoin, text="BTC"}) {
               <Menu.Item key={index} >
                 {({ active }) => (
                   <a
-                    
-                    href="#"
+                    onClick={ handleChange(value) }
+                    href="#a"
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                       'block px-4 py-2 text-sm'

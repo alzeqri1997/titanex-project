@@ -6,7 +6,6 @@ import styles from "../styles";
 
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home")
   const [toggle, setToggle] = useState(false)
 
 
@@ -19,11 +18,10 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={index}
-              className={`cursor-pointer text-[12px]
+              className={`cursor-pointer text-[18px]
               text-white
               ${index === navLinks.length - 1 ? "mr-0" : "mr-[46px]"}
               `}
-              onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -56,10 +54,8 @@ const Navbar = () => {
               <li
                 key={index}
                 className={`font-poppins font-medium cursor-pointer text-black text-[16px]
-                ${active === nav.title ? 'text-dimWhite' : "text-white"}
                 ${index === navLinks.length -1 ? "mb-b" : "mb-4"}
                 `}
-                onClick={()=> setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>

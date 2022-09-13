@@ -25,7 +25,7 @@ function App() {
 			<div className="bg-background flex justify-center items-start">
 				<div className={`${styles.boxWidth}`}>
 					<Hero />
-					<hr className="bg-[#717B8C] opacity-20" />
+					<hr id='benefits' className="bg-[#717B8C] opacity-20" />
 					<div className={`${styles.gutter}`}>
 						{infoData.map((data, index) => (
 							<Info
@@ -36,7 +36,7 @@ function App() {
 							/>
 						))}
 
-						<div>
+						<div id="how-to-works" >
 							<h1 className="text-center md:text-[57px] ss:text-[40px] text-[34px] font-bold tracking-wide mb-[67px]">
 								How it works
 							</h1>
@@ -54,7 +54,7 @@ function App() {
 					</div>
 
 					{/* Testimonials */}
-					<div className=" sx:mb-[133px] mb-[60px]  ">
+					<div id="reviews" className=" sx:mb-[133px] mb-[60px]  ">
 						<h1 className="text-center md:text-[57px] ss:text-[40px] text-[34px] font-bold tracking-wide mb-[67px]">
 							What our customers say
 						</h1>
@@ -64,7 +64,7 @@ function App() {
 						/>
 					</div>
 
-					<div className={` ${styles.gutter} xs:mb-[133px] mb-[60px] `}>
+					<div id="faq" className={` ${styles.gutter} xs:mb-[133px] mb-[60px] `}>
 						<h1 className="text-center md:text-[57px] ss:text-[40px] text-[34px] font-bold tracking-wide mb-[67px]">
 							FAQ
 						</h1>
